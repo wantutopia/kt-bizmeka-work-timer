@@ -1,0 +1,18 @@
+{
+    "name": "케이티 비즈메카 근무시간 계산기",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "케이티 비즈메카 근로시간 확인 익스텐션",
+    "icons": {
+        "128": "time2-main.png"
+    },
+    
+    "browser_action": {
+        "default_title": "케이티 비즈메카 근로시간 확인",
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "https://ezkhuman.bizmeka.com/*",
+        "https://ezportal.bizmeka.com/*"
+    ]
+}
